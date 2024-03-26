@@ -2,7 +2,7 @@ spring:
   application:
     name: Santander-dev-week
   datasource:
-    url: jdbc:h2:mem:db_sdw
+    url: jdbc:h2:mem:db_sdw;characterEncoding=UTF-8
     driver-class-name: org.h2.Driver
     username: sa
     password: ''
